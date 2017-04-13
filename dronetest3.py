@@ -1,5 +1,5 @@
 # Basic test code; set up to make drone take off and land. Connection string looks for a vehicle connected by serial port.
-# To do: script should wait between RTL mode and LAND mode.
+# To do: script should wait between RTL mode and LAND mode. 
 
 import exceptions
 import math
