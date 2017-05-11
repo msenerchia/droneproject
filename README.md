@@ -37,4 +37,3 @@ FILES IN THIS REPOSITORY:
 dronetest3.py: Basic test script, drone lifts off and lands.  
 dronetest4.py: Current version of full flight script, includes target-interpretation calculations.  
 dronetest5.py: Test script to fly in a square.  
-dronetest33.py: Alternate test script to fly in a square.
