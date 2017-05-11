@@ -29,7 +29,7 @@ The OS control of the serial port on the Pi must also be disabled.
 
 To ensure the Pi is connected to the drone, start Mavproxy using the following commands:  
 sudo -s  
-mavproxy.py --master=/dev/ttyAMA0 --baudrate 57600 --aircraft MyCopter
+mavproxy.py --master=/dev/ttyAMA0 --baudrate 115200 --aircraft MyCopter
 
 Do not attempt to run scripts when Mavproxy or a mission planner is running, and make sure that the vehicle is in "Guided" mode and that it is ready to arm. Mission planner software, of which several versions are available for download for different operating systems, is useful for debugging, but interferes with Dronekit scripts.
 
