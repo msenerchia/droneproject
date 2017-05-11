@@ -12,7 +12,7 @@ import socket
 print("Connecting to vehicle on: %s" % (connection_string,))
 
 try:
-    vehicle = connect(connection_string, baud=57600, wait_ready=True, heartbeat_timeout=15)
+    vehicle = connect(connection_string, baud=115200, wait_ready=True, heartbeat_timeout=15)
 
 # Bad TCP connection
 except socket.error:
